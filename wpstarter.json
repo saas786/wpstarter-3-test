@@ -1,0 +1,13 @@
+{
+  "register-theme-folder": true,
+  "content-dev-dir": "./",
+  "dropins": [
+    "./public/wp-content/plugins/memcached/object-cache.php",
+    "./public/wp-content/mu-plugins/batcache/advanced-cache.php"
+  ],
+  "wp-cli-commands": "./scripts/wp-cli-commands.php",
+    "autoload": "./utils/functions.php",
+    "scripts": {
+        "pre-wpstarter": "MyCompany\\MyProject\\sayHelloBeforeStarting"
+    }
+}
