@@ -8,6 +8,6 @@
   "wp-cli-commands": "./scripts/wp-cli-commands.php",
     "autoload": "./utils/functions.php",
     "scripts": {
-        "pre-wpstarter": "MyCompany\\MyProject\\sayHelloBeforeStarting"
+      "pre-wpstarter": [ "MyCompany\\MyProject\\sayHelloBeforeStarting" ]
     }
 }

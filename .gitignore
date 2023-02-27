@@ -1,0 +1,5 @@
+.env.cached.php
+.env.development
+/public
+/.vscode
+/.idea
